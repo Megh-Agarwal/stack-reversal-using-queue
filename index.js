@@ -12,14 +12,19 @@ function reverse(stack){
     }
 }
 
+//Creates a new stack.
 const stack = new Stack();
 
+//Pushes 3 strings onto the stack
 stack.push('Welcome');
 stack.push('There');
 stack.push('Hi');
 
+//Prints the stack before the reversal.
 console.log('Printing stack before reversal: ', stack.print());
 
+//Reverses the stack.
 reverse(stack);
 
+//Prints the stack after the reversal.
 console.log('Printing stack after reversal: ', stack.print());
